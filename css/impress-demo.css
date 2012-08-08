@@ -227,6 +227,20 @@ a:focus {
     letter-spacing: -1px;
 }
 
+.slide h2 {
+    display: block;
+    font-size: 100px;
+    line-height: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+li { 
+  list-style-type: disc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .slide q {
     display: block;
     font-size: 50px;

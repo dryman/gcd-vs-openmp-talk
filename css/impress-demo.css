@@ -211,7 +211,7 @@ a:focus {
 
     width: 900px;
     height: 700px;
-    padding: 40px 60px;
+    padding: 90px 60px;
 
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
@@ -231,10 +231,12 @@ a:focus {
     display: block;
     font-size: 100px;
     line-height: 100px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 30px;
 }
 
+.slide ul {
+    margin-top: 50px;
+}
 li { 
   list-style-type: disc;
   margin-top: 30px;
@@ -246,7 +248,7 @@ li {
     font-size: 50px;
     line-height: 72px;
 
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .slide q strong {
@@ -272,7 +274,7 @@ li {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
-    left: 1.5em;
+    left: 0.5em;
     
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -282,7 +284,20 @@ li {
 }
 
 #title h1 {
+    margin-top: 60px;
     font-size: 190px;
+    line-height: 170px;
+    
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+#title h2 {
+    /*margin-top: 60px;*/
+    font-size: 80px;
+    line-height: 90px;
     
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -302,7 +317,7 @@ li {
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
 #big {
-    width: 600px;
+    width: 1000px;
     text-align: center;
     font-size: 60px;
     line-height: 1;
@@ -310,13 +325,13 @@ li {
 
 #big b {
     display: block;
-    font-size: 250px;
-    line-height: 250px;
+    font-size: 200px;
+    line-height: 200px;
 }
 
 #big .thoughts {
-    font-size: 90px;
-    line-height: 150px;
+    font-size: 70px;
+    line-height: 120px;
 }
 
 /*
